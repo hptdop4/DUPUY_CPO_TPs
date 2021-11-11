@@ -11,7 +11,7 @@ package tp2_relation_1_dupuy;
 public class Personne {
     String nom;
     String prenom ;
-    int nbVoitures ;
+    int nbVoitures = 0;
     Voiture [] liste_voitures ;
             
 public Personne (String unNom, String unPrenom ) {
