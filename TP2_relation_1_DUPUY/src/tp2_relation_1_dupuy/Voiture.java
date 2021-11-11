@@ -15,11 +15,11 @@ public class Voiture {
     Personne Proprietaire ;
     
     
-public Voiture(String unModele, String uneMarque, int unePuissanceCV, Personne unProprietaire) {
+public Voiture(String unModele, String uneMarque, int unePuissanceCV, Personne NULL) {
  modele = unModele;
  marque = uneMarque;
  puissanceCV = unePuissanceCV;
- Proprietaire = unProprietaire;
+ Proprietaire = NULL;
  
   }        
 
