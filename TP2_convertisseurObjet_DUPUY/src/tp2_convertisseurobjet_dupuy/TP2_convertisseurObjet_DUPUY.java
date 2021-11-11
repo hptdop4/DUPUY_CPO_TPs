@@ -14,7 +14,15 @@ public class TP2_convertisseurObjet_DUPUY {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Convertisseur conversion1 = new Convertisseur ();
+        conversion1.CelciusVersKelvin(0);
+        Convertisseur conversion2 = new Convertisseur ();
+        conversion2.KelvinVersCelcius(0);
+        System.out.println(conversion1) ;
+        System.out.println(conversion2) ;
+
+
+        
     }
     
 }
